@@ -1,0 +1,13 @@
+:root {
+    /* ### Primary */
+    --primary01: #854dff;
+    --primary02: #ff5757;
+    /* ### Neutral */
+    --neutral01: #ffffff;
+    --neutral02: #f0f0f0;
+    --neutral03: #dbdbdb;
+    --neutral04: #716f6f;
+    --neutral05: #141414;
+
+    --ff: "Poppins", sans-serif;
+}
