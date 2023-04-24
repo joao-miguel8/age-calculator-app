@@ -13,34 +13,46 @@
     /* Font Weight 400 700 800 */
 }
 
+/* >>>>GENERAL STYLING<<<<<<<<< */
 body {
     font-family: var(--ff);
 }
+
+/* >>>>LAYOUT<<<<<<<<< */
 
 .wrapper {
     border: 1px solid purple;
     margin: 20px;
 }
-
+/* INPUT CONTAINER: */
 .inputs-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     max-width: 400px;
     gap: 5px;
 }
 
 .dates-container {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
+.dates-container label {
+    margin-bottom: 5px;
+}
+
 .dates-container input {
-    border: 1px solid gray;
+    border: 0.5px solid rgb(193, 193, 193);
     padding: 10px 0;
     width: 100%;
+    border-radius: 5px;
 }
+
+/* ----------------------- */
+
+/* AGE-OUTPUT-CONTAINER: */
 
 .age-output-container {
     border: 1px solid green;
@@ -73,3 +85,8 @@ body {
     gap: 10px;
     margin: 5px;
 }
+/* -------------------- */
+
+/* >>>>ADDITIONAL STYLING<<<<<<<<< */
+
+/* >>>>@MEDIA QUERIES<<<<<<<<< */
