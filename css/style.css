@@ -24,6 +24,7 @@ body {
     border: 1px solid purple;
     margin: 20px;
 }
+
 /* INPUT CONTAINER: */
 .inputs-container {
     /* border: 2px solid red; */
@@ -52,10 +53,29 @@ body {
 
 /* ----------------------- */
 
+/* OUTPUT-BUTTON */
+
+.output-button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.output-bttn {
+    padding: 10px 12px;
+    background: var(--primary01);
+    border-radius: 50%;
+    border-style: none;
+}
+
+.output-bttn img {
+    max-width: 24px;
+}
+
 /* AGE-OUTPUT-CONTAINER: */
 
 .age-output-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .dates-container {
@@ -67,7 +87,7 @@ body {
 }
 
 .age-output-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 3rem;
     font-weight: 700;
 }
