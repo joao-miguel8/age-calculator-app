@@ -49,7 +49,7 @@ body {
 
 .dates-container input {
     border: 0.5px solid rgb(193, 193, 193);
-    padding: 10px 0;
+    padding: 10px;
     width: 100%;
     border-radius: 5px;
 }
@@ -108,9 +108,9 @@ body {
     font-weight: 700;
 }
 
-.years,
-.months,
-.days {
+.years-output,
+.months-output,
+.days-output {
     color: var(--primary01);
 }
 
