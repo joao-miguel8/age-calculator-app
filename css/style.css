@@ -23,6 +23,9 @@ body {
 .wrapper {
     border: 1px solid purple;
     margin: 20px;
+    max-width: 550px;
+    border-radius: 8px 8px 50px 8px;
+    padding: 20px;
 }
 
 /* INPUT CONTAINER: */
@@ -30,7 +33,7 @@ body {
     /* border: 2px solid red; */
     display: flex;
     max-width: 400px;
-    gap: 5px;
+    gap: 15px;
 }
 
 .dates-container {
@@ -58,6 +61,8 @@ body {
 .output-button-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
     margin: 20px 0;
 }
 
@@ -72,11 +77,20 @@ body {
     max-width: 24px;
 }
 
-/* AGE-OUTPUT-CONTAINER: */
-
-.age-output-container {
-    /* border: 1px solid green; */
+.output-button-container:before {
+    content: "";
+    border: 0.5px solid rgb(82, 82, 82);
+    width: 50%;
+    height: 0.5px;
 }
+.output-button-container::after {
+    content: "";
+    border: 0.5px solid var(--neutral04);
+    width: 50%;
+    height: 0.5px;
+}
+
+/* AGE-OUTPUT-CONTAINER: */
 
 .dates-container {
     color: var(--neutral04);
@@ -88,6 +102,8 @@ body {
 
 .age-output-container {
     /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -110,3 +126,15 @@ body {
 /* >>>>ADDITIONAL STYLING<<<<<<<<< */
 
 /* >>>>@MEDIA QUERIES<<<<<<<<< */
+
+@media (max-width: 300px) {
+    .age-output-container {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 400px) {
+    .output-button-container {
+        justify-content: end;
+    }
+}
